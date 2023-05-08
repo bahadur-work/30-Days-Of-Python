@@ -22,3 +22,10 @@ print('8. type((9.8, "string", 10.2)) is', type((9.8, 'string', 10.2)))# Tuple i
 print(
     '\nList is a collection which is ordered and changeable. Allows duplicate members.\nTuple is a collection which is ordered and unchangeable. Allows duplicate members.\nSet is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.\nDictionary is a collection which is ordered** and changeable. No duplicate members.'
 )
+
+print()
+print('1. List is ordered, changeable and allows duplicates: ',[1,2,3,1])
+print('2. Touple is ordered, unchangeable and allows duplicates' ,(1,2,3,1))
+print('3. Set is unordered, unchangeable, unindexed and does not allow duplicates', {1,2,3,1})
+print('4. Dictionary is keyValue pair. Ordered, changeable, no duplicate pairs',{'Name':'Bahadur','Sex':'Male','Age':'30'})
+print()
